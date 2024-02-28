@@ -1,23 +1,25 @@
 :root {
   --primary-color: #6c63ff;
-  --heading-font: "playfair display";
+  --secondary-color: #f9f7fe;
+  --heading-main-font-family: "playfair display";
+  --heading-other-font-family: "poppins";
 }
 
 body {
-  font-family: var(--heading-font);
+  font-family: var(--heading-main-font-family);
 }
 
 h1 {
   font-size: 96px;
-  font-family: "playfair display";
+  font-family: var(--heading-main-font-family);
 }
 
 h2 {
   font-size: 24px;
-  font-family: "playfair display";
+  font-family: var(--heading-main-font-family);
 }
 .hero {
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
