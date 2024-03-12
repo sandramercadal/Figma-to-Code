@@ -82,6 +82,44 @@ p {
   margin: 30px;
 }
 
+.logo {
+  max-width: 150px;
+}
+
+.logosmall {
+  max-width: 90px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 70%;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+  color: var(--primary-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -103,5 +141,9 @@ p {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
