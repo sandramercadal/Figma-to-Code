@@ -82,6 +82,30 @@ p {
   margin: 30px;
 }
 
+.work-section h1 {
+  font-size: 64px;
+}
+.work-section h2 {
+  font-size: 18px;
+  font-family: var(--heading-other-font-family);
+}
+
+.work-section {
+  padding: 160px 20px;
+}
+
+.work-section-content h3 {
+  font-family: var(--heading-other-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 0 0;
+}
+.work-section-content p {
+  color: purple;
+  font-family: var(--heading-other-font-family);
+  font-size: 14px;
+}
+
 .logo {
   max-width: 150px;
 }
