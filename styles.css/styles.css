@@ -84,6 +84,7 @@ p {
 
 .work-section h1 {
   font-size: 64px;
+  font-family: var(--heading-main-font-family);
 }
 .work-section h2 {
   font-size: 18px;
